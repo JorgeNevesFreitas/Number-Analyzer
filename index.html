@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number analYzer</title>
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <header>
+      <h1>Number analyzer</h1>
+    </header>
+
+    <section>
+      <div>
+        <p>
+          Number (between 1 e 100):
+          <input type="number" id="txtnum" name="txtnum" />
+          <input
+            type="button"
+            value="add"
+            id="ad"
+            name="ad"
+            onclick="add()"
+          />
+          <select name="sel" id="sel" size="10"></select>
+        </p>
+      </div>
+
+      <div id="txtres">
+        
+        <input
+          type="button"
+          id="analisar"
+          name="analisar"
+          value="Analyze"
+          onclick="analyze()"
+        />
+        <p id="res"></p>
+      </div>
+    
+
+    <footer>
+      <p>&copy; Jonef</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

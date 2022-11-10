@@ -28,6 +28,14 @@ footer {
 }
 
 #sel {
-    width: 150px
+    width: 150px;
+    margin-top: 15px;
 }
 
+@media (max-width: 772px) {
+    section {
+        width: fit-content;
+        margin: 15px 15px;
+    }
+
+}

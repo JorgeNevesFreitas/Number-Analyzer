@@ -30,8 +30,9 @@ function add() {
 function analyze() {
        
     let total = list.length;
-    let max = list[list.length - 1];
-    let min = list[0];
+    let listSorted = list.sort((a,b)=>a-b);
+    let min = listSorted[listSorted.length - 1];
+    let max = listSorted[0];
     let sum = 0;
     for (let i = 0; i < list.length; i++) {
         sum += list[i];
